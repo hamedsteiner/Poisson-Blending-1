@@ -26,8 +26,8 @@ End with an example of getting some data out of the system or using it for a lit
 
 ## Result
 
-![](./screenshots/boat.jpg | width=100)
-![](./screenshots/me.jpg | width=100)
+![](./screenshots/boat.jpg)
+![](./screenshots/me.jpg)
 
 ![](./screenshots/black.jpg)
 
