@@ -31,15 +31,10 @@ End with an example of getting some data out of the system or using it for a lit
 ## Author
 
 Suhong Kim – [@github](https://github.com/suhongkim) – suhongkim11@gmail.com
-<!--Distributed under the XYZ license. See ``LICENSE`` for more information.-->
+Distributed under the MIT license. See the [LICENSE.md](LICENSE.md) file for details
 
 ## Inspiration
-You can get more information on this assignment from 
-[here](https://github.com/suhongkim/UNet-Image-Segmentation/blob/master/ref/Project%201%20-%20UNet.pdf)\
+This project is a part of the CMPT743 assignments at SFU. Please check [the website](https://sites.google.com/site/alimahdaviamiri/teaching/cmpt-743) if you need. 
 Also, you can start from the original framework
-[here](https://drive.google.com/file/d/15eX5Hs_2BiZWb8DuVCX7EqMROtirhsqW/view)
+[here](https://drive.google.com/file/d/1rSOQUHlr4j6_6t22hyBRFSaWaRqseNcs/view)
 
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
