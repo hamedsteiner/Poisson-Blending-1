@@ -30,7 +30,7 @@ for p = 1:imh*imw
 end
 mask_s = reshape(mask, [imh, imw]); 
 
-%TODO: consider different channel numbers
+%% consider different channel numbers
 disp(nb);
 if nb > 1
     imgout(:,:,1:nb-1) = poisson_blend(im_s(:,:,1:nb-1), mask_s, im_t(:,:,1:nb-1)); 
@@ -38,10 +38,7 @@ end
 im1d_s = im_s(:,:,nb); 
 im1d_t = im_t(:,:,nb); 
 
-%TODO: initialize counter, A (sparse matrix) and b.
-%Note: A don't have to be k¡Ák,
-%      you can add useless variables for convenience,
-%      e.g., a total of imh*imw variables
+%% initialize counter, A (sparse matrix) and b.
 n_pxl = imh*imw;
 S = im1d_s(:);
 T = im1d_t(:); 
@@ -63,7 +60,7 @@ for px =1:n_pxl
     end 
 end 
 
-%TODO: fill the elements in A and b, for each pixel in the image
+%% fill the elements in A and b, for each pixel in the image
 e = 1;
 for p = 1:n_pxl      
     % masked pixels
@@ -108,18 +105,14 @@ for p = 1:n_pxl
     end
 end
 
-%TODO: add extra constraints (if any)
-%-----
-%-----
-
-%TODO: solve the equation
+%% solve the equation
 %use "lscov" or "\", please google the matlab documents
 A = sparse(i, j, v); 
 solution = A\b;
 error = sum(abs(A*solution-b));
 disp(error)
 
-%TODO: copy those variable pixels to the appropriate positions
+%% copy those variable pixels to the appropriate positions
 %      in the output image to obtain the blended image
 poisson = zeros(1, n_pxl); 
 for p = 1:n_pxl
