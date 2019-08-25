@@ -27,7 +27,7 @@ main
 
 ## Author
 
-Suhong Kim – [@github](https://github.com/suhongkim) – suhongkim11@gmail.com
+Suhong Kim – [@github](https://github.com/suhongkim) – suhongkim11@gmail.com \
 Distributed under the MIT license. See the [LICENSE.md](LICENSE.md) file for details
 
 ## Inspiration
