@@ -21,9 +21,6 @@ Default images in 'image' folder
 ```
 main
 ```
-
-End with an example of getting some data out of the system or using it for a little demo
-
 ## Result
 ![](./screenshots/black.jpg)
 
